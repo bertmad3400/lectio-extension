@@ -1,0 +1,22 @@
+{
+  "name": "Lectio afleveringer",
+  "description": "Download an overview of lectio afleveringer",
+  "version": "1.0",
+  "manifest_version": 3,
+  "page_action": {
+    "default_icon": "icon.png"
+  },
+  "action": {
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "downloads"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+}
